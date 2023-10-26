@@ -7,7 +7,8 @@ function customerToHTML(customer) {
     return `<div class="customer-card">
     <img src="${customer.picture.large}" class="customerHeadshot">
     <h2 class="customer-name">${customerName}<h2>
-    <ul class="customer-info">
+    <a href="mailto:${customer.email}"}<>${customer.email}</a>
+<ul class="customer-info">
       <li class="address-line1">${customer.location.street.number} ${customer.location.street.name}</li>
       <li class="address-line2">${customer.location.city}, ${nameToAbbr(customer.location.state)} ${customer.location.postcode}</li>
       <li class="dob">DOB: ${moment(customer.dob.date).format("MMM D, YYYY")}</li>
