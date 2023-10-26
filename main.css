@@ -1,14 +1,12 @@
 * {
     max-width: 100%;
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: sans-serif;
   }
   
   h1 {
     padding: 2rem;
-    padding-left: 10%;
+    padding-left: 20%;
   }
   
   a {
@@ -20,7 +18,7 @@
   ul {
     font-size: 1rem;
     padding: 1rem;
-    font-weight: 100;
+    font-weight: 75;
     list-style-type: none;
     margin-bottom: 4rem;
   }
@@ -35,6 +33,7 @@
     row-gap: 20px;
     column-gap: 100px;
   }
+  /* woo hoo! thanks to megan and google! */
   
   .customerContainer img {
     height: auto;
@@ -45,3 +44,4 @@
     border-bottom-right-radius: 50%;
     margin-bottom: 1rem;
   }
+/* woo hoo! thanks megan and google! */ 
